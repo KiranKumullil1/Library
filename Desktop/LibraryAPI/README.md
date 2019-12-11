@@ -1,4 +1,4 @@
-# DigiPR Spring Boot API Documentation Example
+# Library API Documentation
 
 This example illustrates how an API can be documented including Swagger/OpenAPI.
 
