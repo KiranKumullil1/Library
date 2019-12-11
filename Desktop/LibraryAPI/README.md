@@ -23,7 +23,7 @@ This example illustrates how an API can be documented including Swagger/OpenAPI.
 A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lightweight demonstration tool that allows agents to manage their viewer data. Agents have an own access to their viewer data.
 
 ### Use Case
-![](images/A-CRM-Use-Case.png)
+![](images/CRM-Use_Case.png)
 - UC-1 [Login on A-CRM]: Agents can log-in by entering an email address and password. As an extension, new agents my register first.
 - UC-2 [Register on A-CRM]: Agents can register to get an account (profile) to access the A-CRM system.
 - UC-3 [Edit a viewer]: Agents can create, update and delete viewers.
@@ -67,11 +67,11 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 The `rocks.process.acrm.data.domain` package contains the following domain objects / entities including getters and setters:
 
-![](images/CRM-Use_Case.png)
+![](images/Library_Domain_Model.png)
 
 This would be the ERD representation of the domain model:
 
-![](images/A-CRM-ERD.png)
+![](images/ERD.png)
 
 ### Business Layer
 
