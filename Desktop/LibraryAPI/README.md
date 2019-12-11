@@ -24,10 +24,10 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 ### Use Case
 ![](images/CRM-Use_Case.png)
-- UC-1 [Login on A-CRM]: Agents can log-in by entering an email address and password. As an extension, new agents my register first.
-- UC-2 [Register on A-CRM]: Agents can register to get an account (profile) to access the A-CRM system.
-- UC-3 [Edit a viewer]: Agents can create, update and delete viewers.
-- UC-4 [Show a viewer list]: Agents can get an overview over their viewers based on a viewer list. As an extension they can create, update and delete viewers (UC-3).
+- UC-1 [Login on A-CRM]: Librarian can login into the library system.
+- UC-2 [Register on A-CRM]: Librarian can register to get login for the system.
+- UC-3 [Edit a book]: Librarian can create, update and delete books.
+- UC-4 [Show a book list]: Libraian can get an overview over their books based on a book list. As an extension they can create, update and delete books (UC-3).
 
 ## Design
 
