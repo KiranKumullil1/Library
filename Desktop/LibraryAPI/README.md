@@ -67,7 +67,7 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 The `rocks.process.acrm.data.domain` package contains the following domain objects / entities including getters and setters:
 
-![](images/A-CRM-Domain-Model.png)
+![](images/CRM-Use_Case.png)
 
 This would be the ERD representation of the domain model:
 
