@@ -41,9 +41,9 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 ```JSON
 {
     "title": "string",
-    "genre": "test",
-    "pages": "100",
-    "author": "test",
+    "genre": "string",
+    "pages": "string",
+    "author": "string",
   }
 ```
 
@@ -53,20 +53,11 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 ```JSON
 {
-  "cashier": {
-    "viewers": [
-      null
-    ],
-    "email": "string",
-    "id": 0,
-    "name": "string",
-    "password": "string",
-    "remember": "string"
-  },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
+    "boodId": 1,
+    "title": "string",
+    "genre": "string",
+    "pages": "string",
+    "author": "string",
 }
 ```
 
