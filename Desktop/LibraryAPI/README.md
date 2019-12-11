@@ -20,7 +20,7 @@ This example illustrates how an API can be documented including Swagger/OpenAPI.
 
 ### Scenario
 
-A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lightweight demonstration tool that allows agents to manage their viewer data. Agents have an own access to their viewer data.
+A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lightweight demonstration tool that allows librarian to manage their books data. Librarian have an own access to their books data.
 
 ### Use Case
 ![](images/CRM-Use_Case.png)
@@ -123,7 +123,7 @@ The `rocks.process.acrm.business.service` package contains classes of the follow
 
 ### Service Layer / API
 
-On the service layer, the API for viewer management has been realised using the REST style as depicted in the following:
+On the service layer, the API for book management has been realised using the REST style as depicted in the following:
 
 ![](images/api-endpoint-vp.png)
 
