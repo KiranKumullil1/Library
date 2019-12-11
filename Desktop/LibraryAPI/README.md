@@ -63,6 +63,47 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 **Error Response** • *Code:* `404 NOT FOUND`
 
+**Path**: [`/api/librarian`](/api/viewer) 
+
+**Method:** `POST`
+
+**Sample Request**  • *Header:* `Content-Type: application/json` • *Body:*
+
+```JSON
+{
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "remember": "string",
+  }
+```
+
+• *Optional:* `...`
+  
+**Success Response**  • *Code:* `200 OK` • *Sample Body:*
+
+```JSON
+{
+    "librarianId": 1,
+    "name": "string",
+    "email": "string",
+    "password": "string",
+    "remember": "string",
+}
+```
+
+**Error Response** • *Code:* `406`
+
+```JSON
+{
+  "status": 406,
+  "error": "Not Acceptable",
+  "message": "Please provide a valid e-mail.",
+  "path": "/api/keeper"
+}
+```
+**Error Response** • *Code:* `404 NOT FOUND`
+
 ### Data Access / Persistence Layer
 
 The `rocks.process.acrm.data.domain` package contains the following domain objects / entities including getters and setters:
