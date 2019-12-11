@@ -53,7 +53,7 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 ```JSON
 {
-    "boodId": 1,
+    "bookId": 1,
     "title": "string",
     "genre": "string",
     "pages": "string",
@@ -99,7 +99,7 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
   "status": 406,
   "error": "Not Acceptable",
   "message": "Please provide a valid e-mail.",
-  "path": "/api/keeper"
+  "path": "/api/librarian"
 }
 ```
 **Error Response** • *Code:* `404 NOT FOUND`
