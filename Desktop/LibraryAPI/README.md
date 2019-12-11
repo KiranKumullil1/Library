@@ -32,7 +32,7 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 ## Design
 
 ### Endpoint Prototype
-**Path**: [`/api/viewer`](/api/viewer) 
+**Path**: [`/api/book`](/api/viewer) 
 
 **Method:** `POST`
 
@@ -40,21 +40,11 @@ A-CRM (Agency Customer-Relationship-Management) is the smallest possible and lig
 
 ```JSON
 {
-  "cashier": {
-    "viewers": [
-      null
-    ],
-    "email": "string",
-    "id": 0,
-    "name": "string",
-    "password": "string",
-    "remember": "string"
-  },
-  "email": "string",
-  "id": 0,
-  "mobile": "string",
-  "name": "string"
-}
+    "title": "string",
+    "genre": "test",
+    "pages": "100",
+    "author": "test",
+  }
 ```
 
 • *Optional:* `...`
